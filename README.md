@@ -1,11 +1,11 @@
-# Hello_World
 #!/usr/bin/python
-# -*- coding=utf-8 -*-
+#coding=utf-8
 import smtplib
 from email.mime.text import MIMEText
 msg_from = '2363743226@qq.com'
 passwd = 'dvdfafmsaxrkeaha'
 msg_to= '57820048@qq.com'
+
 subject = "2019144150郑宇"
 content = "本机：  10.85.68.107  108.162.215.76  校园网：10.128.95.39 172.68.132.231"
 msg = MIMEText(content)
